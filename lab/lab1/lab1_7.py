@@ -39,7 +39,7 @@ while True:
         continue
 
     # Определение взятие Ладьей шахматной фигуры
-    if int(x1) == int(y1) or int(x1) == int(y2) or int(x2) == int(y1) or int(x2) == int(y2):
+    if int(x1) == int(y1) or int(x2) == int(y2):
         r = 'YES'
     else:
         r = 'NO'
